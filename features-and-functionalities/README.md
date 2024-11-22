@@ -30,9 +30,9 @@ The backend of Airbnb Clone project must supoport the following core features an
    - **Booking Creation:**
       - Guests can book a property for specified dates.
       - Prevent double bookings using date validation.
-  - **Booking Cancellation:**
+   - **Booking Cancellation:**
       - Allow guests or hosts to cancel bookings based on the cancellation policy.
-  - **Booking Status:**
+   - **Booking Status:**
       - Track booking statuses such as pending, confirmed, canceled, or completed.
 5. Payment Integration
    - **Implement secure payment gateways (e.g., Stripe, PayPal) to handle:**
