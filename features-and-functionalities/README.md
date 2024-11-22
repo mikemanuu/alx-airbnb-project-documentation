@@ -8,19 +8,19 @@ The backend of Airbnb Clone project must supoport the following core features an
   - **User Registration:**
       - Allow users to sign up as guests or hosts.
       - Use secure authentication methods like JWT (JSON Web Tokens).
-   **User Login and Authentication:**
+  - **User Login and Authentication:**
       - Implement login via email and password.
       - Include OAuth options (e.g., Google, Facebook).
-   **Profile Management:**
+  - **Profile Management:**
       - Enable users to update their profiles, including profile photos, contact info, and preferences.
 
 2. Property Listings Management
-   - **Add Listings:**
+  - **Add Listings:**
       - Hosts can create property listings by providing details such as title, description, location, price, amenities, and availability.
-   - **Edit/Delete Listings:**
+  - **Edit/Delete Listings:**
       - Hosts can update or remove their property listings.
 3. Search and Filtering
-   - **Implement search functionality to allow users to find properties by:**
+  - **Implement search functionality to allow users to find properties by:**
       - Location
       - Price range
       - Number of guests
@@ -40,9 +40,9 @@ The backend of Airbnb Clone project must supoport the following core features an
       - Automatic payouts to hosts after a booking is completed.
       - Include support for multiple currencies.
 6. Reviews and Ratings
-   - Guests can leave reviews and ratings for properties.
-   - Hosts can respond to reviews.
-   - Ensure reviews are linked to specific bookings to prevent abuse.
+      - Guests can leave reviews and ratings for properties.
+      - Hosts can respond to reviews.
+      - Ensure reviews are linked to specific bookings to prevent abuse.
 7. Notifications System
    - **Implement email and in-app notifications for:**
       - Booking confirmations
