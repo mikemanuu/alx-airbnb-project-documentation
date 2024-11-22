@@ -37,5 +37,5 @@ The purpose of this task is to convert the features and functionalities outlined
 [Emmanuel Rotich]
 
 ### Social Profiles
-* **LinkedIn**: [https://www.linkedin.com/in/rotich-emmanuel-14ba25188](#)
-* **X **: [(https://twitter.com/mikemanuu](#)
+* [(LinkedIn)]: https://www.linkedin.com/in/rotich-emmanuel-14ba25188)
+* [(X)]: (https://twitter.com/mikemanuu)
