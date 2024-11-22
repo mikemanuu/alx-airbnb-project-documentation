@@ -5,18 +5,18 @@ This document outlines the key features and functionalities of the Airbnb Clone 
 The backend of Airbnb Clone project must supoport the following core features and functionalities.
 
 1. User Management
-   •	User Registration:
-      o	Allow users to sign up as guests or hosts.
-      o	Use secure authentication methods like JWT (JSON Web Tokens).
-   •	User Login and Authentication:
-      o	Implement login via email and password.
-      o	Include OAuth options (e.g., Google, Facebook).
-   •	Profile Management:
-      o	Enable users to update their profiles, including profile photos, contact info, and preferences.
+   ##	User Registration:
+      ###	Allow users to sign up as guests or hosts.
+      ###	Use secure authentication methods like JWT (JSON Web Tokens).
+   ##	User Login and Authentication:
+      ###	Implement login via email and password.
+      ###	Include OAuth options (e.g., Google, Facebook).
+   ##	Profile Management:
+      ###	Enable users to update their profiles, including profile photos, contact info, and preferences.
 
 2. Property Listings Management
-   • Add Listings:
-     o Hosts can create property listings by providing details such as title, description, location, price, amenities, and availability.
+   ## Add Listings:
+     ### Hosts can create property listings by providing details such as title, description, location, price, amenities, and availability.
    • Edit/Delete Listings:
       o Hosts can update or remove their property listings.
 3. Search and Filtering
