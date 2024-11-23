@@ -17,7 +17,7 @@ Allows users to register, log in, and manage their accounts securely.
 
 *POST /api/auth/register*
 Input:
-```json
+``` json
 {
   "username": "string",
   "email": "string",
@@ -57,7 +57,7 @@ Output (Failure):
 {
   "error": "Invalid credentials"
 }
-
+```
 
 ### Validation Rules
 
@@ -86,7 +86,7 @@ Allows hosts to add, update, view, and delete property listings.
 
 *POST /api/properties*
 Input:
-
+```json
 {
   "title": "string",
   "description": "string",
@@ -130,7 +130,7 @@ Output:
 {
   "message": "Property deleted successfully"
 }
-
+```
 
 ### Validation Rules
 
@@ -159,7 +159,7 @@ Enables guests to search for properties, make bookings, and manage them.
 
 *POST /api/bookings*
 Input:
-
+```json
 {
   "property_id": "uuid",
   "guest_id": "uuid",
@@ -198,7 +198,7 @@ Output:
 {
   "message": "Booking cancelled successfully"
 }
-
+```
 
 ### Validation Rules
 
