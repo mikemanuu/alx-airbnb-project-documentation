@@ -20,7 +20,7 @@ Allows users to register, log in, and manage their accounts securely.
   }
 
 Output (Success):
-
+```json
 {
   "message": "Registration successful",
   "user_id": "uuid"
