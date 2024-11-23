@@ -17,7 +17,7 @@ API Endpoints
 
 POST /api/auth/register
 Input:
-
+``` json
 {
   "username": "string",
   "email": "string",
