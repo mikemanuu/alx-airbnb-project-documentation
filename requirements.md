@@ -1,23 +1,23 @@
 ---
 
-Backend Features Requirement Specifications
+# Backend Features Requirement Specifications
 
 This document outlines the technical and functional requirements for the backend features of the system.
 
 
 ---
 
-User Authentication
+## User Authentication
 
-Overview
+### Overview
 
 Allows users to register, log in, and manage their accounts securely.
 
-API Endpoints
+### *API Endpoints*
 
-POST /api/auth/register
+*POST /api/auth/register*
 Input:
-``` json
+```json
 {
   "username": "string",
   "email": "string",
@@ -37,7 +37,7 @@ Output (Failure):
   "error": "Email already in use"
 }
 
-POST /api/auth/login
+*POST /api/auth/login*
 Input:
 
 {
@@ -59,7 +59,7 @@ Output (Failure):
 }
 
 
-Validation Rules
+### Validation Rules
 
 Email: Must be a valid email format.
 
@@ -68,7 +68,7 @@ Password: Minimum 8 characters, includes at least one uppercase, one lowercase, 
 Username: Alphanumeric, 3-20 characters.
 
 
-Performance Criteria
+### Performance Criteria
 
 Registration and login responses must not exceed 300ms.
 
@@ -76,15 +76,15 @@ Registration and login responses must not exceed 300ms.
 
 ---
 
-Property Management
+# Property Management
 
-Overview
+## Overview
 
 Allows hosts to add, update, view, and delete property listings.
 
-API Endpoints
+### *API Endpoints*
 
-POST /api/properties
+*POST /api/properties*
 Input:
 
 {
@@ -108,7 +108,7 @@ Output (Failure):
   "error": "Invalid data format"
 }
 
-PUT /api/properties/:id
+*PUT /api/properties/:id*
 Input:
 
 {
@@ -124,7 +124,7 @@ Output:
   "message": "Property updated successfully"
 }
 
-DELETE /api/properties/:id
+*DELETE /api/properties/:id*
 Output:
 
 {
@@ -132,7 +132,7 @@ Output:
 }
 
 
-Validation Rules
+### Validation Rules
 
 Title: Max 100 characters.
 
@@ -141,7 +141,7 @@ Description: Max 500 characters.
 Price: Must be a positive number.
 
 
-Performance Criteria
+### Performance Criteria
 
 CRUD operations should respond within 500ms.
 
@@ -149,15 +149,15 @@ CRUD operations should respond within 500ms.
 
 ---
 
-Booking System
+# Booking System
 
-Overview
+## Overview
 
 Enables guests to search for properties, make bookings, and manage them.
 
-API Endpoints
+### *API Endpoints*
 
-POST /api/bookings
+*POST /api/bookings*
 Input:
 
 {
@@ -180,7 +180,7 @@ Output (Failure):
   "error": "Property unavailable for selected dates"
 }
 
-GET /api/bookings/:id
+*GET /api/bookings/:id*
 Output:
 
 {
@@ -192,7 +192,7 @@ Output:
   "status": "confirmed/cancelled"
 }
 
-DELETE /api/bookings/:id
+*DELETE /api/bookings/:id*
 Output:
 
 {
@@ -200,12 +200,12 @@ Output:
 }
 
 
-Validation Rules
+### Validation Rules
 
 Dates: Start date must be before end date, and no overlaps with existing bookings.
 
 
-Performance Criteria
+### Performance Criteria
 
 Search results must be returned within 200ms.
 
