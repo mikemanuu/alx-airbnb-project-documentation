@@ -2,6 +2,8 @@
 
 This document outlines the technical and functional requirements for the backend features of the system.
 
+---
+
 ## 1. User Authentication
 
 ### *Overview*  
@@ -9,7 +11,7 @@ Allows users to register, log in, and manage their accounts securely.
 
 ### *API Endpoints*
 - *POST /api/auth/register*  
-  *Input:*  
+  Input:  
   ```json
   {
     "username": "string",
@@ -64,6 +66,10 @@ Username: Alphanumeric, 3-20 characters.
 Performance Criteria
 
 Registration and login responses must not exceed 300ms.
+
+
+
+---
 
 2. Property Management
 
@@ -134,6 +140,9 @@ Performance Criteria
 
 CRUD operations should respond within 500ms.
 
+
+
+---
 
 3. Booking System
 
