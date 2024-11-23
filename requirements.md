@@ -212,5 +212,14 @@ Search results must be returned within 200ms.
 Booking confirmation must not exceed 400ms.
 
 
+## Author
+
+[Emmanuel Rotich](https;//github.com/mikemanuu)  
+
+## Social Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/rotich-emmanuel-14ba25188)  
+- [X (Twitter)](https://twitter.com/mikemanuu)
+
 
 ---
