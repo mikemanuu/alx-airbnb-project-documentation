@@ -1,54 +1,59 @@
-# Backend Features Requirement Specifications
+---
+
+Backend Features Requirement Specifications
 
 This document outlines the technical and functional requirements for the backend features of the system.
 
+
 ---
 
-## 1. User Authentication
+User Authentication
 
-### *Overview*  
+Overview
+
 Allows users to register, log in, and manage their accounts securely.
 
-### *API Endpoints*
-- *POST /api/auth/register*  
-  Input:  
-  ```json
-  {
-    "username": "string",
-    "email": "string",
-    "password": "string"
-  }
+API Endpoints
+
+POST /api/auth/register
+Input:
+
+{
+  "username": "string",
+  "email": "string",
+  "password": "string"
+}
 
 Output (Success):
-```json
+
 {
   "message": "Registration successful",
   "user_id": "uuid"
 }
 
 Output (Failure):
-```json
+
 {
   "error": "Email already in use"
 }
 
-- *POST /api/auth/login*
+POST /api/auth/login
 Input:
-```json
+
 {
   "email": "string",
   "password": "string"
 }
 
 Output (Success):
-```json
+
 {
   "message": "Login successful",
   "token": "jwt_token"
 }
 
 Output (Failure):
-```json
+
 {
   "error": "Invalid credentials"
 }
@@ -71,17 +76,17 @@ Registration and login responses must not exceed 300ms.
 
 ---
 
-## 2. Property Management
+Property Management
 
-### *Overview*
+Overview
 
 Allows hosts to add, update, view, and delete property listings.
 
-### *API Endpoints*
+API Endpoints
 
-*POST /api/properties*
+POST /api/properties
 Input:
-```json
+
 {
   "title": "string",
   "description": "string",
@@ -144,7 +149,7 @@ CRUD operations should respond within 500ms.
 
 ---
 
-3. Booking System
+Booking System
 
 Overview
 
@@ -205,3 +210,7 @@ Performance Criteria
 Search results must be returned within 200ms.
 
 Booking confirmation must not exceed 400ms.
+
+
+
+---
