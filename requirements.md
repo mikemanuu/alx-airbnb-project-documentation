@@ -27,28 +27,28 @@ Output (Success):
 }
 
 Output (Failure):
-
+```json
 {
   "error": "Email already in use"
 }
 
-POST /api/auth/login
+- *POST /api/auth/login*
 Input:
-
+```json
 {
   "email": "string",
   "password": "string"
 }
 
 Output (Success):
-
+```json
 {
   "message": "Login successful",
   "token": "jwt_token"
 }
 
 Output (Failure):
-
+```json
 {
   "error": "Invalid credentials"
 }
@@ -71,17 +71,17 @@ Registration and login responses must not exceed 300ms.
 
 ---
 
-2. Property Management
+## 2. Property Management
 
-Overview
+### *Overview*
 
 Allows hosts to add, update, view, and delete property listings.
 
-API Endpoints
+### *API Endpoints*
 
-POST /api/properties
+*POST /api/properties*
 Input:
-
+```json
 {
   "title": "string",
   "description": "string",
