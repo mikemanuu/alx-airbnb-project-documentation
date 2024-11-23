@@ -57,7 +57,7 @@ The requirements are categorized into:
   - Track statuses such as pending, confirmed, canceled, or completed.  
 
 ### 5. Payment Integration  
-- Implement secure payment gateways (e.g., Stripe, PayPal) to handle:  
+- Implement secure payment gateways to handle:  
   - Upfront payments by guests.  
   - Automatic payouts to hosts after a booking is completed.  
 - Include support for multiple currencies.  
