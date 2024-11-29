@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.3">
   <diagram name="Page-1" id="09U9vmsj1v41Gl1nxyOo">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="320" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-8" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Property" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-7">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-9" value="&lt;ul&gt;&lt;li&gt;property_id: UUID [PK]&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-7">
+          <mxGeometry y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-10" value="&lt;span style=&quot;&quot;&gt;host_id: UUID [FK]&lt;/span&gt;&lt;div style=&quot;&quot;&gt;name: VARCHAR&lt;/div&gt;&lt;div style=&quot;&quot;&gt;description: TEXT&lt;/div&gt;&lt;div style=&quot;&quot;&gt;pricepernight: DECIMAL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;created_at: TIMESRAMP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;updated_at: TIMESTAMP&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-7">
+          <mxGeometry y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-31" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-7">
+          <mxGeometry x="50" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="40" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-3" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-6">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-4" value="&lt;ul&gt;&lt;li&gt;user_id: UUID [PK]&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-6">
+          <mxGeometry y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-5" value="&lt;span style=&quot;&quot;&gt;first_name: VARCHAR&lt;/span&gt;&lt;div style=&quot;&quot;&gt;last_name: VARCHAR&lt;/div&gt;&lt;div style=&quot;&quot;&gt;email: VARCHAR [UQ]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;password_hash: VARCHAR&lt;/div&gt;&lt;div style=&quot;&quot;&gt;phone_number: VARCHAR&lt;/div&gt;&lt;div style=&quot;&quot;&gt;role: ENUM&lt;/div&gt;&lt;div style=&quot;&quot;&gt;created_at: TIMESTAMP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-6">
+          <mxGeometry y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-2" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="408" y="45" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="600" y="320" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-16" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-15">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-17" value="&lt;ul&gt;&lt;li&gt;message_id: UUID [PK]&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-15">
+          <mxGeometry y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-18" value="&lt;span style=&quot;&quot;&gt;sender_id: UUID [FK]&lt;/span&gt;&lt;div style=&quot;&quot;&gt;recipient_id: UUID [FK]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;message_body: TEXT&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;sent_at: TIMESRAMP&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-15">
+          <mxGeometry y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-33" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-15">
+          <mxGeometry x="50" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-19" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="238" y="600" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-20" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; Review" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-19">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-21" value="&lt;ul&gt;&lt;li&gt;review_id: UUID [PK]&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-19">
+          <mxGeometry y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-22" value="&lt;span style=&quot;&quot;&gt;property_id: UUID [FK]&lt;/span&gt;&lt;div style=&quot;&quot;&gt;user_id: UUID [FK]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;rating: INTEGER&lt;/div&gt;&lt;div style=&quot;&quot;&gt;comment: TEXT&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;created_at: TIMESRAMP&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-19">
+          <mxGeometry y="60" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-34" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-19">
+          <mxGeometry x="52" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="600" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-24" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; Booking" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-23">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-25" value="&lt;ul&gt;&lt;li&gt;booking_id: UUID [PK]&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-23">
+          <mxGeometry y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-26" value="&lt;span style=&quot;&quot;&gt;property_id: UUID [FK]&lt;/span&gt;&lt;div style=&quot;&quot;&gt;user_id: UUID [FK]&lt;/div&gt;&lt;div style=&quot;&quot;&gt;start_date: DATE&lt;/div&gt;&lt;div style=&quot;&quot;&gt;end_date: DATE&lt;/div&gt;&lt;div style=&quot;&quot;&gt;total_price: DECIMAL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;status: ENUM&lt;/div&gt;&lt;div style=&quot;&quot;&gt;created_at: TIMESRAMP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-23">
+          <mxGeometry y="60" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-35" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-23">
+          <mxGeometry x="50" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry y="880" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-28" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Payment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-27">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-29" value="&lt;ul&gt;&lt;li&gt;payment_id: UUID [PK]&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-27">
+          <mxGeometry y="40" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-30" value="&lt;span style=&quot;&quot;&gt;booking_id: UUID [FK]&lt;/span&gt;&lt;div style=&quot;&quot;&gt;amount: DECIMAL&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;payment_date: TIMESRAMP&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;payment_method: ENUM&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-27">
+          <mxGeometry y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gtVAlVSuM4y4cseDgjUb-36" value="E" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="gtVAlVSuM4y4cseDgjUb-27">
+          <mxGeometry x="50" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
