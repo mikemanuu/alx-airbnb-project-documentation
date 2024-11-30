@@ -146,8 +146,8 @@ User "1" -- "0..*" Review : writes
 Property "1" -- "0..*" Review : reviewed by
 Booking "1" -- "1" Payment : paid with
 @enduml
-
-Credits
+```
+## Credits
 
 This ERD is designed as part of a database design task, showcasing relationships between entities and attributes.
 
